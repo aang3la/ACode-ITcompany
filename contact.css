@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+}
+body {
+    font-family: Tahoma;
+}
+/*Header*/
+.nav-container {
+    height: 60px;
+    display: flex;
+    background-color:#0895F0;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 155px;
+    height: 45px;
+    margin: 5px 0 0 15px;
+}
+.nav-container ul {
+    list-style: none;
+    width: 520px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-right: 30px;
+}
+.nav-container a {
+    text-decoration: none;
+    color: white;
+}
+.nav-container li:hover {
+    cursor:pointer;
+    text-decoration:underline;
+    color: white;
+}
+/*Main card*/
+.up-container {
+    height: 320px;
+    background-image: url('https://scontent.fskp4-1.fna.fbcdn.net/v/t1.15752-9/339938208_770070214640963_1134952877270370006_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=CB2X8NKSuGwAX__v32_&_nc_ht=scontent.fskp4-1.fna&oh=03_AdTAk1a1V7H595mqqysqorf276Bhlu6dXLcM71U1I4COMQ&oe=646A78BD');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.up-content {
+    padding: 90px;
+    color: white;
+}
+.up-content h1 {
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+.up-content p {
+    font-size: 20px;
+}
+.contact h2 {
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: #0895F0;
+    text-align: center;
+}
+.contact {
+    height: 500px;
+    margin: 90px;
+    align-items: center;
+}
+.img-contact {
+    float: left;
+}
+/*Contact form*/
+.contact-container {
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+    padding-top: 35px;
+    float: right;
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+.contact-container input {
+    width: 500px;
+    height: 25px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    padding: 3px;
+}
+textarea {
+    width: 500px;
+    height: 110px;
+    margin-bottom: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    color: #767575;
+}
+#sbt {
+    width: 150px;
+    padding: 8px;
+    border-radius: 8px;
+    border: 2px solid #0895F0;
+    background-color: rgb(255, 255, 255);
+    color: #0895F0;
+}
+#sbt a {
+    text-decoration: none;
+    color: #0895F0;
+}
+#sbt:hover {
+    background-color: #0895F0;
+    color:white;
+    border: 2px solid #0895F0;
+    cursor: pointer;
+}
+#sbt a:hover {
+    color: white;
+}
